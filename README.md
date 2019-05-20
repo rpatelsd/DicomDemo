@@ -11,4 +11,4 @@ b. Update Tag (PatientName)
   
   
 Instructions : 
-The Program.cs file contains the methods that can be used. A sample Dicom file has been provided to validate the functionality.  
+The Program.cs file contains the methods that can be used. A sample Dicom file has been provided (/Sample) to validate the functionality.  
