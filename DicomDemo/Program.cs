@@ -8,9 +8,9 @@ namespace DicomDemo
         {
             Overlay.OverlayFile(@"c:\temp\Anonymized20190519.dcm");
 
-            //TagUpdate.UpdatePatientTag(@"c:\temp\Anonymized20190519.dcm", "Johzzzn Doe");
+            TagUpdate.UpdatePatientTag(@"c:\temp\Anonymized20190519.dcm", "FirstName LastName");
 
-            //TagUpdate.ReadPatientTag(@"c:\temp\Anonymized20190519-tagupdate.dcm");
+            TagUpdate.ReadPatientTag(@"c:\temp\Anonymized20190519-tagupdate.dcm");
 
             Console.WriteLine("Press any key to continue.");
             Console.ReadKey();
